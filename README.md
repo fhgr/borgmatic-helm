@@ -1,4 +1,4 @@
-# common-charts
+# borgmatic helm
 
 This repo is a helm chart using [borgmatic](https://torsion.org/borgmatic/)
 
