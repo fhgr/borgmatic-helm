@@ -1,7 +1,7 @@
 ---
 apiVersion: v2
 description: A Helm chart for Kubernetes, including a borgmatic deployment
-name: app-template
+name: borgmatic
 version: 1.0.1
 kubeVersion: ">=1.22.0-0"
 maintainers:
