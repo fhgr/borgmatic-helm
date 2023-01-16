@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  app-template:
+  - apiVersion: v2
+    created: "2023-01-16T15:48:04.327407992+01:00"
+    description: A Helm chart for Kubernetes, including a borgmatic deployment
+    digest: 33e29e5926b379b2b8b77bea4a94eeb755ef8c4983a86f7d611e0baffead8262
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: andreas.murk@fhgr.ch
+      name: Andreas Murk
+    name: app-template
+    urls:
+    - https://github.com/fhgr/borgmatic-helm/releases/download/app-template-1.0.1/app-template-1.0.1.tgz
+    version: 1.0.1
+  borgmatic:
+  - apiVersion: v2
+    created: "2023-01-16T15:48:04.517692456+01:00"
+    description: A Helm chart for Kubernetes, including a borgmatic deployment
+    digest: f57c2345ecb46db4b5c71b354191b8c70384778f7ac3c4e940af7b0961923bbc
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: andreas.murk@fhgr.ch
+      name: Andreas Murk
+    name: borgmatic
+    urls:
+    - https://github.com/fhgr/borgmatic-helm/releases/download/borgmatic-1.0.1/borgmatic-1.0.1.tgz
+    version: 1.0.1
+generated: "2023-01-16T15:48:03.987946872+01:00"
