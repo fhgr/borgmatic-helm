@@ -1,0 +1,29 @@
+image:
+  repository: b3vis/borgmatic 
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+podAnnotations: {}
+
+podSecurityContext: {}
+  # fsGroup: 2000
+
+service:
+  main:
+    enabled: false
+
+controller:
+  enabled: true
+  type: deployment
+  replicas: 1
+ 
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
