@@ -1,3 +1,5 @@
 .deploy
-.deploy
-.deploy
+
+Chart.lock
+
+charts/borgmatic/charts
